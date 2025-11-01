@@ -1,24 +1,17 @@
 {
-	"name": "hello-server",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"module": "./src/index.ts",
-	"type": "module",
-	"scripts": {
-		"dev": "smithery dev",
-		"build": "tsc && smithery build"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"@modelcontextprotocol/sdk": "^1.20.0",
-		"@smithery/sdk": "^1.7.4",
-		"zod": "^3.25.46"
-	},
-	"devDependencies": {
-		"@smithery/cli": "^1.6.3",
-		"typescript": "^5.9.3"
-	}
+  "name": "my-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "src/index.ts",
+  "scripts": {
+    "build": "npx smithery build",
+    "dev": "npx smithery dev"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "zod": "^3.25.46"
+  },
+  "devDependencies": {
+    "@smithery/cli": "^1.6.3"
+  }
 }
